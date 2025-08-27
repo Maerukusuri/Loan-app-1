@@ -85,8 +85,6 @@ test.describe('Loan Flow Tests', () => {
     await expect(loanPage.loginContinueButton).toBeDisabled();
   });
 
-  // убрали тест "Close button is active"
-
   test('Continue button is available after login', async () => {
     await loanPage.clickApply();
     await loanPage.fillLogin('test', 'test_pass');
