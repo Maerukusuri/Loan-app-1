@@ -1,0 +1,20 @@
+login view
+1 username and password empty > continue is disabled
+2 close button is visible
+3 click to close > calculator is visible
+
+Calculator view
+1 incorrect value for amount > error message is visible 49 and 10001
+2 loan periods are available
+3 click to apply > login popup is visible
+
+Scroll feature
+1. Apply for loan button > scroll to top view
+
+Happy flow - most critical path
+step 1: click apply for loan
+step 2: fill in username and password
+step 3: click continue and get Success message
+
+Flow with details
+> verify that amount and periods are the same as in the calculator
